@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		934800D321EC701B00F628C3 /* VSRegex_ObjcTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 934800D221EC701B00F628C3 /* VSRegex_ObjcTest.m */; };
+		934800DB21EC70BD00F628C3 /* regex.json in Resources */ = {isa = PBXBuildFile; fileRef = 934800DA21EC70BD00F628C3 /* regex.json */; };
+		934800DE21EC717B00F628C3 /* VSRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 934800DD21EC717B00F628C3 /* VSRegex.m */; };
+		934800E121ECBA6A00F628C3 /* VSRegexPatternManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 934800E021ECBA6A00F628C3 /* VSRegexPatternManager.m */; };
+		93ACB6E421EDE23700C29E18 /* TestDataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 93ACB6E321EDE23700C29E18 /* TestDataFetcher.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		934800CF21EC701B00F628C3 /* VSRegex-ObjcTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VSRegex-ObjcTest.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		934800D221EC701B00F628C3 /* VSRegex_ObjcTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSRegex_ObjcTest.m; sourceTree = "<group>"; };
+		934800D421EC701B00F628C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		934800DA21EC70BD00F628C3 /* regex.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = regex.json; sourceTree = "<group>"; };
+		934800DC21EC717B00F628C3 /* VSRegex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VSRegex.h; sourceTree = "<group>"; };
+		934800DD21EC717B00F628C3 /* VSRegex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSRegex.m; sourceTree = "<group>"; };
+		934800DF21ECBA6A00F628C3 /* VSRegexPatternManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VSRegexPatternManager.h; sourceTree = "<group>"; };
+		934800E021ECBA6A00F628C3 /* VSRegexPatternManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSRegexPatternManager.m; sourceTree = "<group>"; };
+		93ACB6E221EDE23700C29E18 /* TestDataFetcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestDataFetcher.h; sourceTree = "<group>"; };
+		93ACB6E321EDE23700C29E18 /* TestDataFetcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDataFetcher.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		934800CC21EC701B00F628C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		934800C421EC6FE200F628C3 = {
+			isa = PBXGroup;
+			children = (
+				934800D821EC70BD00F628C3 /* Sources */,
+				934800D121EC701B00F628C3 /* VSRegex-ObjcTest */,
+				934800D021EC701B00F628C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		934800D021EC701B00F628C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				934800CF21EC701B00F628C3 /* VSRegex-ObjcTest.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		934800D121EC701B00F628C3 /* VSRegex-ObjcTest */ = {
+			isa = PBXGroup;
+			children = (
+				934800D221EC701B00F628C3 /* VSRegex_ObjcTest.m */,
+				93ACB6E221EDE23700C29E18 /* TestDataFetcher.h */,
+				93ACB6E321EDE23700C29E18 /* TestDataFetcher.m */,
+				934800D421EC701B00F628C3 /* Info.plist */,
+			);
+			path = "VSRegex-ObjcTest";
+			sourceTree = "<group>";
+		};
+		934800D821EC70BD00F628C3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				934800D921EC70BD00F628C3 /* Resources */,
+				934800DC21EC717B00F628C3 /* VSRegex.h */,
+				934800DD21EC717B00F628C3 /* VSRegex.m */,
+				934800DF21ECBA6A00F628C3 /* VSRegexPatternManager.h */,
+				934800E021ECBA6A00F628C3 /* VSRegexPatternManager.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		934800D921EC70BD00F628C3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				934800DA21EC70BD00F628C3 /* regex.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		934800CE21EC701B00F628C3 /* VSRegex-ObjcTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 934800D521EC701B00F628C3 /* Build configuration list for PBXNativeTarget "VSRegex-ObjcTest" */;
+			buildPhases = (
+				934800CB21EC701B00F628C3 /* Sources */,
+				934800CC21EC701B00F628C3 /* Frameworks */,
+				934800CD21EC701B00F628C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VSRegex-ObjcTest";
+			productName = "VSRegex-ObjcTest";
+			productReference = 934800CF21EC701B00F628C3 /* VSRegex-ObjcTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		934800C521EC6FE200F628C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				TargetAttributes = {
+					934800CE21EC701B00F628C3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 934800C821EC6FE200F628C3 /* Build configuration list for PBXProject "VSRegex-Objc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 934800C421EC6FE200F628C3;
+			productRefGroup = 934800D021EC701B00F628C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				934800CE21EC701B00F628C3 /* VSRegex-ObjcTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		934800CD21EC701B00F628C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934800DB21EC70BD00F628C3 /* regex.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		934800CB21EC701B00F628C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934800E121ECBA6A00F628C3 /* VSRegexPatternManager.m in Sources */,
+				934800DE21EC717B00F628C3 /* VSRegex.m in Sources */,
+				934800D321EC701B00F628C3 /* VSRegex_ObjcTest.m in Sources */,
+				93ACB6E421EDE23700C29E18 /* TestDataFetcher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		934800C921EC6FE200F628C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		934800CA21EC6FE200F628C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		934800D621EC701B00F628C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"VSREGEX_TEST=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "VSRegex-ObjcTest/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vincentsit.VSRegex-ObjcTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		934800D721EC701B00F628C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "VSRegex-ObjcTest/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vincentsit.VSRegex-ObjcTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		934800C821EC6FE200F628C3 /* Build configuration list for PBXProject "VSRegex-Objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934800C921EC6FE200F628C3 /* Debug */,
+				934800CA21EC6FE200F628C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		934800D521EC701B00F628C3 /* Build configuration list for PBXNativeTarget "VSRegex-ObjcTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934800D621EC701B00F628C3 /* Debug */,
+				934800D721EC701B00F628C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 934800C521EC6FE200F628C3 /* Project object */;
+}
